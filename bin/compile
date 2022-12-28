@@ -70,6 +70,7 @@ libxcomposite1
 libxdamage1
 libxfixes3
 libgtk-3-0
+libasound2
 EOF
 	fi
 
@@ -134,5 +135,3 @@ export_env_dir() {
 export_env_dir "$ENV_DIR" PLAYWRIGHT_BUILDPACK_BROWSERS
 install_system_deps
 configure_export_env
-playwright install firefox
-playwright install-deps
